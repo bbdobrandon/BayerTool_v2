@@ -1,0 +1,47 @@
+/* Base Styles -------------------- */
+html,body {
+  /*height: 100%;*/
+}
+h1 {
+  text-align: center;
+  color: $green;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+}
+h2 {
+  color: $darkGrey;
+  font-size: 2.5rem;
+  line-height: 1.75rem;
+  margin: 0;
+  padding: 0;
+}
+form input {
+  font-size: 0.875rem;
+  color: $lightGrey;
+}
+button.btn,
+.btn {
+  background-color: $green;
+  color: $white;
+  border-radius: 4px;
+  font-size: 0.625rem;
+  height: 40px;
+  width: 120px;
+  &.white-btn {
+    background-color: $white;
+    color: $green;
+  }
+}
+a.btn {
+  line-height: 24px;
+}
+p {
+  color: $textColor;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+strong {
+  font-weight: bold;
+  color: $darkBlue;
+}

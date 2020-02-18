@@ -1,0 +1,235 @@
+.monitor {
+  #monitor-planting-date {
+    background-image: url(../img/monitor-planting-date.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1003px;
+    font-weight: bold;
+    color: #9e0b0f;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    .planting-date {
+      position: absolute;
+      left: 11.5%;
+      width: 16%;
+      top: 15.6%;
+
+      h1 {
+        font-weight: bold;
+        // font-size: 101px;
+        color: #000000;
+        // margin-bottom: 130px;
+        text-align: center;
+      }
+      .month {
+        // font-size: 87px;
+        font-weight: bold;
+        color: #9e0b0f;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+      }
+      img.date-table {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  #monitor-early-growth {
+    background-image: url(../img/monitor-planting-date.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1003px;
+    img {
+      position: absolute;
+      display: block;
+      &.plant-one {
+        // width: 21px;
+        width: 1.09375%;
+        left: 24.05%;
+        top: 42.55%;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+      }
+      &.plant-two {
+        width: 2.3%;
+        top: 40.3%;
+        left: 28.3%;
+        opacity: 0;
+        transition: opacity 2.25s ease-in;
+      }
+      &.plant-three {
+        width: 3%;
+        left: 32.59%;
+        top: 37%;
+        opacity: 0;
+        transition: opacity 2.5s ease-in;
+      }
+      &.load {
+        opacity: 1;
+      }
+    }
+  }
+  #monitor-application-window {
+    background-image: url(../img/monitor-application-window.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1003px;
+    img {
+      position: absolute;
+      display: block;
+      &.plant-one {
+        width: 1.09375%;
+        left: 24.05%;
+        top: 42.55%;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+      }
+      &.plant-two {
+        width: 2.3%;
+        top: 40.3%;
+        left: 28.3%;
+        opacity: 0;
+        transition: opacity 2.25s ease-in;
+      }
+      &.plant-three {
+        width: 3%;
+        left: 32.59%;
+        top: 37%;
+        opacity: 0;
+        transition: opacity 2.5s ease-in;
+      }
+      &.plant-four {
+        width: 4.8%;
+        left: 36.75%;
+        top: 35.05%;
+        opacity: 0;
+        transition: opacity 1.75s ease-in;
+      }
+      &.plant-five {
+        width: 5.2%;
+        left: 41.9%;
+        top: 34%;
+        opacity: 0;
+        transition: opacity 2s ease-in;
+      }
+      &.plant-six {
+        width: 5.2%;
+        left: 46.44%;
+        top: 32%;
+        opacity: 0;
+        transition: opacity 2.25s ease-in;
+      }
+      &.load {
+        opacity: 1;
+      }
+      &.post-window {
+        width: 41.53818248%;
+        left: 24%;
+        top: 42px;
+      }
+    }
+
+  }
+  #postemergence-application {
+    // display: none;
+    background-image: url(../img/post-app-content1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 31.53818248%;
+    height: 100%;
+    // width: 32%;
+    font-size: 35px;
+    color: #9e0b0f;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    padding-top:60px;
+    position: absolute;
+    left: 29%;
+    top: 107px;
+    text-transform: uppercase;
+    .inner-date {
+      position: relative;
+      top: -2%;
+    }
+    &.dap-24 { left: 24%;}
+    &.dap-25 { left: 25%;}
+    &.dap-26 { left: 26%;}
+    &.dap-27 { left: 27%;}
+    &.dap-28 { left: 28%;}
+    &.dap-29 { left: 29%;}
+    &.dap-30 { left: 30%;}
+    &.dap-31 { left: 31%;}
+    &.dap-32 { left: 32%;}
+    &.dap-33 { left: 33%;}
+    &.dap-34 { left: 34%;}
+    p {
+    }
+    img {
+      width: 100%;
+    }
+    &.next-bg {
+      background-image: url(../img/post-app-content2.png);
+    }
+
+  }
+
+  #monitor-application-window-two {
+    background-image: url(../img/postemergence-application-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1000px;
+    #graph {
+      background-image: url(../img/full-graph.jpg);
+      background-size: 100% auto;
+      height: 30%;
+      width: 100%;
+      position: absolute;
+      top: 53%;
+    }
+  }
+
+  #monitor-application-window-three {
+    background-image: url(../img/monitor-application-window-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 1000px;
+
+    #animated-graph {
+        .bar {
+          position: absolute;
+          display: block;
+          z-index: 1000;
+          height: 9.8%;
+          width: 15.5%;
+          &.red-bar {
+            background-color: #a00c30;
+            top: 51%;
+            left: 39.5%;
+          }
+          &.gold-bar {
+            background-color: #efb31d;
+            top: 61.2%;
+            left: 39.5%;
+            &.grow {
+              width: 24%;
+            }
+          }
+          &.bar-20 {left: 39.5%;}
+          &.bar-21 {left: 40.5%;}
+          &.bar-22 {left: 41.5%;}
+          &.bar-23 {left: 42.5%;}
+          &.bar-24 {left: 43.5%;}
+          &.bar-25 {left: 44.5%;}
+          &.bar-26 {left: 45.5%;}
+          &.bar-27 {left: 46.5%;}
+          &.bar-28 {left: 47.5%;}
+          &.bar-29 {left: 48.5%;}
+          &.bar-30 {left: 49.5%;}
+
+        }
+    }
+  }
+}

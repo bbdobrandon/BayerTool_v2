@@ -1,0 +1,264 @@
+body.recommendations {
+  background-image: url(../img/recommendations-container-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  // min-height: 1580px;
+}
+img.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+#recommendations {
+  // height: 100%;
+  max-width: 1140px;
+  .header-logo {
+    margin-top: 100px;
+  }
+  #not-found {
+    margin-top: 440px;
+    text-align: center;
+    p {
+      font-size: 20px;
+    }
+  }
+  table {
+    th {
+      text-align: center;
+      border: none;
+      &.orange {
+        background-color: $orange;
+      }
+      &.maroon {
+        background-color: $maroon;
+      }
+      &.dark-grey {
+        background-color: $darkGrey;
+      }
+      &.dark-blue {
+        background-color: $darkBlue;
+      }
+      &.green {
+        background-color: $green;
+      }
+      &.light-blue {
+        background-color: $lightBlue;
+      }
+      &.brown {
+        background-color: $brown;
+      }
+      &.maroon {
+        background-color: $maroon;
+      }
+      &.vertical {
+        vertical-align: middle;
+        div {
+          transform: translate(3px, 88px) rotate(270deg);
+          font-size: 1.25rem;
+          width: 30px;
+        }
+      }
+
+    }
+    td {
+      padding: 30px;
+      vertical-align: middle;
+      img {
+      }
+    }
+  }
+
+  .na {
+    font-size: 1rem;
+    color: $darkGrey;
+  }
+  .group-circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    color: $white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.65em;
+    background-color: #FF0000;
+    box-shadow: 0 0 0 5px #FF0000;
+    &.orange {
+      background-color: $orange;
+      box-shadow: 0 0 0 5px $orange;
+    }
+    &.maroon {
+      background-color: $maroon;
+      box-shadow: 0 0 0 5px $maroon;
+    }
+    &.dark-grey {
+      background-color: $darkGrey;
+      box-shadow: 0 0 0 5px $darkGrey;
+    }
+    &.dark-blue {
+      background-color: $darkBlue;
+      box-shadow: 0 0 0 5px $darkBlue;
+    }
+    &.green {
+      background-color: $green;
+      box-shadow: 0 0 0 5px $green;
+    }
+    &.light-blue {
+      background-color: $lightBlue;
+      box-shadow: 0 0 0 5px $lightBlue;
+    }
+    &.black {
+      background-color: $black;
+      box-shadow: 0 0 0 5px $black;
+    }
+    &.brown {
+      background-color: $brown;
+      box-shadow: 0 0 0 5px $brown;
+    }
+    &.rhodamine {
+      background-color: $rhodamine;
+      box-shadow: 0 0 0 5px $rhodamine;
+    }
+    &.light-grey {
+      background-color: $lightGrey;
+      box-shadow: 0 0 0 5px $lightGrey;
+    }
+    &.eggplant {
+      background-color: $eggplant;
+      box-shadow: 0 0 0 5px $eggplant;
+    }
+    &.coral {
+      background-color: $coral;
+      box-shadow: 0 0 0 5px $coral;
+    }
+    &.berry {
+      background-color: $berry;
+      box-shadow: 0 0 0 5px $berry;
+    }
+    &.other {
+      background-color: $rhodamine;
+      box-shadow: 0 0 0 5px $rhodamine;
+    }
+  }
+  h1 {
+    margin-top: 110px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-weight: bold;
+    color: $darkBlue;
+    margin-bottom: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .footnotes {
+    font-size: 0.625rem;
+    color: #5f5f5f;
+  }
+  table {
+    th {
+      background-color: $darkGrey;
+      color: $white;
+      font-weight: bold;
+    }
+  }
+  .choose-crops {
+    text-align: center;
+    a {
+      img {
+        margin-right: 10px;
+      }
+      &:last-child {
+        img {
+          margin-right: 0;
+        }
+      }
+
+    }
+  }
+
+}
+.footer-recommendations {
+  // background-image: url(../img/recommendations-bg@3x.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  height: 1040px;
+  &.corn {
+    // background-image: url(../img/corn-bg.png);
+    background-image: url(../img/corn-bg.jpg);
+  }
+  &.soy,
+  &.soybean {
+    background-image: url(../img/soybean-bg.png);
+  }
+  &.sorghum {
+    background-image: url(../img/sorghum-bg.png);
+  }
+  &.cotton {
+    background-image: url(../img/cotton-bg.png);
+  }
+  .footer-top {
+    color: $white;
+    padding-bottom: 0px;
+    height: 215px;
+    position: relative;
+    // top: 479px;
+    top: 320px;
+    h1 {
+      color: $white;
+      margin: 0;
+      text-align: center;
+    }
+    img {
+      position: relative;
+      // top: -24px;
+    }
+    p {
+      color: $white;
+      font-size: 0.875rem;
+      line-height: 1.5625rem;
+      a {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1875rem;
+      }
+    }
+    .footer-btn {
+      background-color: $green;
+      color: $white;
+      border-radius: 4px;
+      border: 2px solid $white;
+      width: auto;
+    }
+    form {
+      margin-top: 30px;
+      input {
+        text-align: center;
+        border: 1px solid $green;
+      }
+    }
+  }
+  .footer-bottom {
+    color: #FFFFFF;
+    height: 134px;
+    position: relative;
+    // top: 540px;
+    top: 378px;
+    z-index: 1000;
+    h4 {
+      font-size: 0.8125rem;
+      margin: 20px 0px 20px;
+    }
+    p {
+      color: $white;
+      font-size: 11px;
+      line-height: 15px;
+      margin: 0 0px 10px;
+    }
+  }
+}
